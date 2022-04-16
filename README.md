@@ -11,6 +11,8 @@ Existirán dos tipos de usuarios el comprador y el administrador, el comprador p
 
 La compra solamente debe tener un arreglo de álbumes o canciones (Según usted le parezca debido), la fecha de la compra, usuario y el ID de la compra, se puede crear un carrito de comprar para implementar ésta funcionalidad o hacerla así directo. Así también el usuario debe poder ver todas las compras que ha hecho en el pasado. La función de comprar álbumes solamente se va a "Simular" mediante un botón que diga "Buy", éste realizará la compra en automático al momento de presionarlo.
 
+No deben utilizar la API de Spotify u otra API de música.
+
 ## Extras
 - Integración de la API de Paypal o MercadoPago para realizar la compra de los álbumes.
 - Compartir las playlist o canciones utilizando la API de Facebook.
