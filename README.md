@@ -25,7 +25,7 @@ Se debe realizar una consulta que permita realizar una comparativa cuál fue el 
 Se debe poder consultar las canciones en las que un artista hizo colaboración, descartando las canciones en las que no aparece del mismo álbum así también en las que canta solo.
 Se debe poder buscar las canciones utilizando varios artistas y no solamente uno, para ésto se introducirá una coma en la barra de búsqueda para separar cada uno de los artistas. La consulta debe devolver las canciones en las que colaboran y en segundo lugar sus canciones más escuchadas de ambos (Las 5 primeras de cada uno y después el resto).
 
-
+(MongoDB Views)[https://www.mongodb.com/docs/manual/core/views/]
 
 
 ## Extras
