@@ -18,6 +18,15 @@ La compra solamente debe tener un arreglo de álbumes o canciones (Según a uste
 - Puede ser en cualquier lenguaje (Python, Java, Javascript, .NET, Ruby, Scala) y con arquitectura REST o GraphQL (Si lo hacen con arquitectura GraphQL lo tomaré como un extra), si utilizan arquitectura REST deben documentar todos sus endpoints, pueden utilizar Swagger o cualquier otra herramienta que conozcan.
 - Recuerden que sólamente pueden usar los puertos que utilizamos en las clases previas, ya que por motivos de seguridad no es apto tener muchos puertos abiertos a la vez.
 
+# Requisitos MongoDB (NoSQL)
+Cuando se consulte las canciones de un álbum, en lugar de devolver las canciones en conjunto de el ID del álbum y el arreglo de IDs de los artistas debe devolver el nombre de los artistas y el del álbum también.
+Se debe poder clasificar utilizando el número de compras, ésto para saber cuáles son las canciones más vendidas y las menos vendidas, ósea, a la hora de la consulta se debe crear un nuevo atributo o "columna"  pero sólo a la hora de la consulta que nos permita saber el rango o lugar que ocupa esa canción, no nos interesa guardar éste rango dentro de la BD así que se debe crear únicamente cuando se realiza la consulta. A la vez ésta consulta se debe poder clasificar por álbum, artista o entre un rango de fechas (fecha de inicio y fecha de termino) éstas fechas las pueden sacar de los tickets utilizados en las compras de los usuarios.
+Se debe realizar una consulta que permita realizar una comparativa cuál fue el semestre, mes o bimestre que tuvo más ventas en canciones. A la vez se deben poder clasificar por álbum o artista.
+Se debe poder consultar las canciones en las que un artista hizo colaboración, descartando las canciones en las que no aparece del mismo álbum así también en las que canta solo.
+Se debe poder buscar las canciones utilizando varios artistas y no solamente uno, para ésto se introducirá una coma en la barra de búsqueda para separar cada uno de los artistas. La consulta debe devolver las canciones en las que colaboran y en segundo lugar sus canciones más escuchadas de ambos (Las 5 primeras de cada uno y después el resto).
+
+
+
 
 ## Extras
 - Integración de la API de Paypal o MercadoPago para realizar la compra de los álbumes.
