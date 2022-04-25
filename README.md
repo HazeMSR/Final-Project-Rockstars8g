@@ -33,6 +33,11 @@ Se debe poder buscar las canciones utilizando varios artistas y no solamente uno
 
 (MongoDB Views)[https://www.mongodb.com/docs/manual/core/views/]
 
+## Deployar node a producción
+(Node)[https://dev.to/sudarshansb143/deploy-react-apps-in-production-pretty-easily-49j]
+
+## Puerto para el front en el server
+Sus puertos serán 110XX
 
 ## Extras
 - Integración de la API de Paypal o MercadoPago para realizar la compra de los álbumes.
