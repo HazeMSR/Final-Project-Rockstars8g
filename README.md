@@ -43,3 +43,7 @@ Sus puertos serán 110XX
 - Integración de la API de Paypal o MercadoPago para realizar la compra de los álbumes.
 - Compartir las playlist o canciones utilizando la API de Facebook.
 - Gráficas mostrando diferentes análisis realizadoss a las canciones o álbumes.
+
+
+## Actualización
+La playlist es opcional, quién lo haga tendrá puntos extra pero quién no lo haga no afectará su calificación.
